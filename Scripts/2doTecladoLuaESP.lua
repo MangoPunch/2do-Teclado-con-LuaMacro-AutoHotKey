@@ -15,11 +15,11 @@ lmc_assign_keyboard('MACROS'); -- Esto permite definir tu otro teclado como un i
 sendToAHK = function (key)   
       --print('It was assigned string:    ' .. key)
       local file = io.open("C:\\Users\\Tu-usario\\...\\teclaPresionada.txt", "w")
-      -- Este es un ejemplo de directorio, deberas reemplazarlo por el tuyo en donde se encuentre el documento de texto. MP
+      -- Este es un ejemplo de directorio, deberas reemplazarlo por el tuyo donde se encuentre el documento de texto. MP
       -- Lo que esta haciendo es 'w' (write) las teclas que presionamos en el segundo teclado al documento "teclaPresionada.txt". MP
       -- Esta no es la solucion optima, pero funciona.
       -- Recuerda sustituir la ubicacion de tu archivo "teclaPresionada.txt" usando DOS BARRAS INVERSAS.
-      -- NO OLVIDAR LA EXTENSIOND EL ARCHIVO!!! MP
+      -- NO OLVIDAR LA EXTENSION DEL ARCHIVO!!! MP
 
       --print("estamos dentro del archivo de texto") -- esto fue para verificar que funciona, dejalo desactivado MP
       
